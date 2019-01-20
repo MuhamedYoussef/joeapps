@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+<!-- Start Main -->
+{% block content %}
+<main class="container">
+  <h1>WELCOME TO THE BEST WEBSITE ON EARTH</h1>
+  <section style="max-width:500px;" class="mt-5">
+    <div class="list-group shadow">
+      <a
+        href="{% url 'downloader' %}"
+        class="list-group-item list-group-item-action bg-dark font-weight-bold rounded"
+      >
+        VIDEO DOWNLOADER
+      </a>
+    </div>
+  </section>
+</main>
+{% endblock %}
